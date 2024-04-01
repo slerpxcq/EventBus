@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="eventbus">
+      <UniqueIdentifier>{1123A520-FDEF-FF2B-2609-EED3123535BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eventbus\internal">
+      <UniqueIdentifier>{7DC829D4-E9DE-276A-3256-B38B9EABF8F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eventbus\perk">
+      <UniqueIdentifier>{925C8C1F-FE1C-0856-C757-51D333D74C32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eventbus\permission">
+      <UniqueIdentifier>{89045C04-F565-3912-7ED3-7FC4EA3370D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eventbus\stream">
+      <UniqueIdentifier>{ECA5243C-5831-9200-6142-15F5CD4CEE00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\src\dexode\EventBus.hpp" />
+    <ClInclude Include="lib\src\dexode\eventbus\Bus.hpp">
+      <Filter>eventbus</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\Listener.hpp">
+      <Filter>eventbus</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\internal\ListenerAttorney.hpp">
+      <Filter>eventbus\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\internal\event_id.hpp">
+      <Filter>eventbus\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\internal\listener_traits.hpp">
+      <Filter>eventbus\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\perk\PassPerk.hpp">
+      <Filter>eventbus\perk</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\perk\Perk.hpp">
+      <Filter>eventbus\perk</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\perk\PerkEventBus.hpp">
+      <Filter>eventbus\perk</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\perk\TagPerk.hpp">
+      <Filter>eventbus\perk</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\perk\WaitPerk.hpp">
+      <Filter>eventbus\perk</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\permission\PostponeBus.hpp">
+      <Filter>eventbus\permission</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\stream\EventStream.hpp">
+      <Filter>eventbus\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\src\dexode\eventbus\stream\ProtectedEventStream.hpp">
+      <Filter>eventbus\stream</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\src\dexode\EventBus.cpp" />
+    <ClCompile Include="lib\src\dexode\eventbus\perk\PassPerk.cpp">
+      <Filter>eventbus\perk</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\dexode\eventbus\perk\Perk.cpp">
+      <Filter>eventbus\perk</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\dexode\eventbus\perk\PerkEventBus.cpp">
+      <Filter>eventbus\perk</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\dexode\eventbus\perk\TagPerk.cpp">
+      <Filter>eventbus\perk</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\dexode\eventbus\perk\WaitPerk.cpp">
+      <Filter>eventbus\perk</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
